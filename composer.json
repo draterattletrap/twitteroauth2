@@ -1,0 +1,29 @@
+{
+    "name": "draterattletrap/twitter-oauth2",
+    "description": "Sandbox for working with the Twitter v2 API using OAuth 2.0 w/ PKCE",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.5.13 || ^9.3.8"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "DrateRattletrap\\Twitter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DrateRattletrap\\Twitter\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Drate Rattletrap",
+            "email": "draterattletrap@pm.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "php-curl-class/php-curl-class": "^9.18"
+    }
+}
